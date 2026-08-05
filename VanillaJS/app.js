@@ -24,6 +24,9 @@ const player = {
     points: 10,
     fat: true,
     10: 'hello',
+    sayHi: function() {
+        console.log('hi');
+    }
 };
 
 console.log(player.name);
@@ -33,3 +36,10 @@ console.log(player['10']);
 player.today = 'Monday';
 console.log(player);
 // player = false;
+
+function sayHello(name) {
+    console.log(`Hello, ${name}!`);
+}
+
+sayHello('Yubin');
+player.sayHi();
