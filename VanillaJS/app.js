@@ -18,3 +18,18 @@ console.log(daysOfWeek[0]);
 // Pushing
 daysOfWeek.push('Sun');
 console.log(daysOfWeek);
+
+const player = {
+    name: 'Yubin',
+    points: 10,
+    fat: true,
+    10: 'hello',
+};
+
+console.log(player.name);
+console.log(player['name']);
+console.log(player['10']);
+
+player.today = 'Monday';
+console.log(player);
+// player = false;
